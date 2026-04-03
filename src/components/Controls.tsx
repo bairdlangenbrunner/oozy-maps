@@ -14,7 +14,7 @@ export default function Controls({
   return (
     <div className="controls">
       <div className="controls-row">
-        <button className="control-btn" onClick={onTogglePause}>
+        <button className="control-btn pause-play-btn" onClick={onTogglePause}>
           {paused ? "play" : "pause"}
         </button>
         <button className="control-btn" onClick={onReset}>

@@ -189,6 +189,10 @@
   transition: border-color 0.15s, color 0.15s;
 }
 
+.pause-play-btn {
+  min-width: 5.5ch;
+}
+
 .control-btn:hover {
   border-color: var(--accent);
   color: var(--text);
